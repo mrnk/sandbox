@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# test-sphinx documentation build configuration file, created by
+# sandbox documentation build configuration file, created by
 # sphinx-quickstart on Tue Sep 13 16:26:28 2016.
 #
 # This file is execfile()d with the current directory set to its
@@ -135,7 +135,7 @@ html_theme = 'sphinx_rtd_theme'
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
 #
-# html_title = u'test-sphinx v0.0.1'
+# html_title = u'sandbox v0.0.1'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #
@@ -235,7 +235,7 @@ html_static_path = ['_static']
 # html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'test-sphinxdoc'
+htmlhelp_basename = 'sandboxdoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -261,7 +261,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'test-sphinx.tex', u'test-sphinx Documentation',
+    (master_doc, 'sandbox.tex', u'sandbox Documentation',
      u'Morone Kentaro', 'manual'),
 ]
 
@@ -303,7 +303,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'test-sphinx', u'test-sphinx Documentation',
+    (master_doc, 'sandbox', u'sandbox Documentation',
      [author], 1)
 ]
 
@@ -318,8 +318,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'test-sphinx', u'test-sphinx Documentation',
-     author, 'test-sphinx', 'One line description of project.',
+    (master_doc, 'sandbox', u'sandbox Documentation',
+     author, 'sandbox', 'One line description of project.',
      'Miscellaneous'),
 ]
 
